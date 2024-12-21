@@ -1,0 +1,143 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+
+}
+ul {
+    list-style: none;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+}
+.container .navegacao {
+    background-color: rgb(5, 5, 94);
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+
+}
+.container .navegacao .logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.container .navegacao .logo img {
+    width: 60px;
+
+}
+.container .navegacao .links {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    
+}
+.container .navegacao .links nav ul {
+    display: flex;
+    gap: 25px;
+}
+.container .navegacao .links button {
+    border: none;
+    background-color: transparent;
+    margin-right: 30px;
+}
+.container .navegacao .links button i {
+    font-size: 20px;
+
+}
+.container main {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 70%;
+
+}
+.container main .esquerda {
+    width: 50%;
+    height: 100%;
+}
+.container main .esquerda img {
+    width: 100%;
+    height: 100%;
+}
+.container main .direita {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.container main .direita .secao-1 span {
+    background-color: rgb(5, 5, 94);
+    padding: 10px 5px;
+    border-radius: 50px;
+    color: antiquewhite;
+}
+.container main .direita .secao-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+.container main .direita .secao-2 .botoes {
+    display: flex;
+    gap: 10px;
+}
+.container main .direita .secao-2 .botoes .botao {
+    padding: 8px 5px;
+    border-radius: 15px;
+}
+.container main .direita .secao-2 .botoes .primario {
+    border: none;
+    background-color: rgb(5, 5, 94);
+    transition: all 500ms ease;
+}
+.container main .direita .secao-2 .botoes .primario:hover {
+    background-color: rgb(0, 0, 23);
+}
+
+.container main .direita .secao-2 .botoes .primario a {
+    color: antiquewhite;
+}
+.container main .direita .secao-2 .botoes .secundario {
+    border: 1px solid transparent;
+    background-color: transparent;
+    transition: all 500ms ease;
+}
+
+.container main .direita .secao-2 .botoes .secundario:hover {
+border: 1px solid rgb(5, 5, 94);
+}
+
+.container main .direita .secao-2 .botoes .secundario a {
+    color:rgb(5, 5, 94) ;
+}
+.container footer {
+    display: flex;
+    
+}
+.container footer .direita {
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+    padding-right: 20px;
+}
+.container footer .esquerda {
+    width: 50%;
+
+}
+.container footer .direita .redes-sociais {
+    gap: 10px;
+    display: flex;
+}
+.container footer .direita .redes-sociais i {
+    font-size: 30px;
+    cursor: pointer;
+}
